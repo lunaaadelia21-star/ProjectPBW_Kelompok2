@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Revalia Ariani</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            min-height: 100vh;
+            padding: 40px 15px;
+            background-color: #0f172a;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #ffffff;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 30px 20px 20px;
+            background-color: #1b2a4a;
+            border-radius: 25px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.20);
+        }
+
+        .profile {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .profile-img {
+            display: block;
+            width: 100px;
+            height: 100px;
+            margin: 0 auto 15px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+        .profile h1 {
+            margin-bottom: 10px;
+            font-size: 28px;
+            letter-spacing: 1px;
+        }
+
+        .subtitle {
+            margin-bottom: 8px;
+            font-size: 15px;
+            color: #c9cee0;
+        }
+
+        .description {
+            font-size: 13px;
+            color: #8e97b5;
+            font-style: normal;
+            font-weight: bold;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin: 0 auto 20px;
+            max-width: 300px;
+        }
+
+        .link-box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            padding: 10px 20px;
+            background-color: #303db4;
+            border: 2px solid #4b58c9;
+            border-radius: 14px;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        .link-box:hover {
+            background-color: #4856d1;
+            border-color: #6874e5;
+            transform: translateY(-4px);
+            box-shadow: 0 8px 18px rgba(0, 0, 0, 0.30);
+        }
+
+        .link-box.Connect {
+            background-color: #ff3c3c;
+            border-color: #ff3c3c;
+        }
+
+        .link-box.Connect:hover {
+            background-color: #ff4d4d;
+            border-color: #ff6b6b;
+        }
+
+        .arrow {
+            font-size: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .link-box:hover .arrow {
+            transform: translateX(6px);
+        }
+
+        .spotify-section {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .spotify-section h2 {
+            margin-bottom: 15px;
+            color: #ffffff;
+            font-size: 16px;
+        }
+
+        .spotify-frame {
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+            border-radius: 14px;
+            background-color: #1b2a4a;
+        }
+
+        .container footer {
+            margin-top: 30px;
+            text-align: center;
+            color: #9199b1;
+            font-size: 14px;
+            line-height: 1.7;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 20px 10px;
+            }
+
+            .container {
+                padding: 30px 18px 25px;
+                border-radius: 22px;
+            }
+
+            .profile-img {
+                width: 85px;
+                height: 85px;
+            }
+
+            .profile h1 {
+                font-size: 23px;
+            }
+
+            .subtitle {
+                font-size: 13px;
+            }
+
+            .description {
+                font-size: 12px;
+            }
+
+            .link-box {
+                padding: 15px 17px;
+                font-size: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <header class="profile">
+            <img src="Revalia.jpeg" alt="Foto Profile Revalia" class="profile-img">
+
+            <h1>Revalia Ariani</h1>
+
+            <p class="subtitle">
+                Suka Makeup | Suka Jajan | Suka Jalan-jalan
+            </p>
+        </header>
+
+        <main>
+            <section class="links-card">
+                <section class="links">
+
+                    <a href="https://github.com/Rrevaliaarn"
+                       target="_blank"
+                       class="link-box">
+                        <span>GitHub</span>
+                        <span class="arrow"></span>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/revalia-ariani-0b832743b"
+                       target="_blank"
+                       class="link-box">
+                        <span>LinkedIn</span>
+                        <span class="arrow"></span>
+                    </a>
+
+                    <a href="https://www.instagram.com/revaliaarn"
+                       target="_blank"
+                       class="link-box">
+                        <span>Instagram</span>
+                        <span class="arrow"></span>
+                    </a>
+
+                    <a href="https://www.tiktok.com/@mochim0uu"
+                       target="_blank"
+                       class="link-box connect">
+                        <span>TikTok</span>
+                        <span class="arrow"></span>
+                    </a>
+
+                </section>
+            </section>
+        </main>
+
+        <section class="spotify-section">
+            <h2>🎵 Fav Song</h2>
+
+            <div class="spotify-frame">
+                <iframe
+                    src="https://open.spotify.com/embed/track/3PH4GOv16ywKCgTbSGaZzh"
+                    width="100%"
+                    height="152"
+                    frameborder="0"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy">
+                </iframe>
+            </div>
+        </section>
+
+        <footer>
+            <p>Sampai jumpa</p>
+            <p>di cerita berikutnya :)</p>
+        </footer>
+
+    </div>
+</body>
+</html>
